@@ -1,0 +1,41 @@
+/* 
+
+Thank you message to my Family by Anthony
+Code by Anthony.media 
+2021-01-01 
+(C) Copyright Anthony.media, all rights reserved
+*/
+
+* {
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+html {
+    height: auto;
+    min-height: 100vh;
+    background: rgb(255,246,250);
+    background: linear-gradient(180deg, rgba(255,246,250,1) 0%, rgba(224,238,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    height: 100%;
+    padding: 20px;
+}
+.graphic {
+    width: 300px;
+    max-width: 100%;
+}
+.embed {
+    border-radius: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 500px;
+    max-width: 100%;
+}
+.hide {
+    display:none;
+}
